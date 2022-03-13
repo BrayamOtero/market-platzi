@@ -10,8 +10,8 @@ public class Purchase {
     private int purchaseId;
     private String clientId;
     private LocalDateTime date;
-    private String payments;
+    private String paymentMethod;
     private String comment;
     private String state;
-    private List<PurchaseItem> item;
+    private List<PurchaseItem> items;
 }

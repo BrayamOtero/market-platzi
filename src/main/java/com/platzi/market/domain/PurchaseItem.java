@@ -7,5 +7,5 @@ public class PurchaseItem {
     private int productId;
     private int quantity;
     private double total;
-    private boolean state;
+    private boolean active;
 }
